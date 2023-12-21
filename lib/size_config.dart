@@ -1,5 +1,6 @@
 
 
+/*
 import 'package:flutter/cupertino.dart';
 
 class sizeConfig{
@@ -7,4 +8,4 @@ class sizeConfig{
   static double screenWidth;
   static double screenHeight;
   static
-}
+}*/

@@ -16,15 +16,9 @@ class _DisplaypageState extends State<Displaypage> {
   @override
     void initState() {
     super.initState();
-    _navigatetohome();
     // Add code after super
     }
 
-    _navigatetohome()async{
-    await Future.delayed(Duration(seconds: 5), (){
-      Navigator.pushReplacement(context as BuildContext, MaterialPageRoute(builder: (context)=>MyHomePage(title: '',)));});
-
-    }
 
   @override
   Widget build(BuildContext context) {
@@ -34,15 +28,13 @@ class _DisplaypageState extends State<Displaypage> {
        color: Colors.pink[100],
        child: Column(
          children: [
-           Image(
-             image:AssetImage("assets/images/1.png"),
+           Image.asset(
+             'lib/images/1.1.png',
            ),
            SizedBox(
              height: 10,
 
            ),
-
-           Text("hhhhhhh"),
          ],
        ),
      ),
