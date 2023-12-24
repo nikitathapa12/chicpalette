@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "657647465444",
+    "project_id": "chicpalette-8dfc2",
+    "storage_bucket": "chicpalette-8dfc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657647465444:android:0e60bcc21730081af3cdf1",
+        "android_client_info": {
+          "package_name": "com.example.chicpalette"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVui0lqPXvKOAMsMXJlVTZ3HNBUJmHXx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
