@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'Foundation_detailpage.dart';
+import 'Lipstick_detail.dart';
 
-class Foundation extends StatefulWidget {
+class Lipstick extends StatefulWidget {
   @override
-  FoundationPageState createState() => FoundationPageState();
+  LipstickPageState createState() => LipstickPageState();
 }
 
-class FoundationPageState extends State<Foundation> {
+class LipstickPageState extends State<Lipstick> {
   //int _selectedIndex = 0;
 
   @override
@@ -75,7 +75,7 @@ class FoundationPageState extends State<Foundation> {
                               child: Container(
                                 width: double.maxFinite,
                                 decoration: BoxDecoration(
-                                  color: Color(Foundation_detailpage[index]['color']),
+                                  color: Color(Lipstick_detail[index]['color']),
                                   borderRadius: BorderRadius.circular(18),
                                 ),
                                 child: Center(
@@ -92,11 +92,11 @@ class FoundationPageState extends State<Foundation> {
                                         padding: const EdgeInsets.all(8.0),
                                         child: CircleAvatar(
                                           radius: 55,
-                                          backgroundColor: Color(Foundation_detailpage[index]['color']).withOpacity(0.5),
+                                          backgroundColor: Color(Lipstick_detail[index]['color']).withOpacity(0.5),
                                         ),
                                       ),
                                       Image.asset(
-                                        Foundation_detailpage[index]['image'],
+                                        Lipstick_detail[index]['image'],
                                         height: 160,
                                       ),
                                     ],
@@ -110,11 +110,11 @@ class FoundationPageState extends State<Foundation> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    Foundation_detailpage[index]['name'],
+                                    Lipstick_detail[index]['name'],
                                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
                                   ),
                                   Text(
-                                    r'Rs.' + Foundation_detailpage[index]['price'],
+                                    r'Rs.' + Lipstick_detail[index]['price'],
                                     style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: Colors.green),
                                   ),
                                 ],

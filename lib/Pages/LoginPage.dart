@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
       body: Stack(fit: StackFit.expand, children: [
         //Background Image
         Image.asset(
-          'assets/images/3.jpg',
+          'lib/images/1.1.png',
           fit: BoxFit.cover,
         ),
         Padding(

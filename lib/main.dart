@@ -1,7 +1,7 @@
+import 'package:chicpalette/Pages/LoginPage.dart';
 import 'package:flutter/material.dart';
 import 'package:chicpalette/Pages/HomePage.dart';
-
-import 'Pages/CataloguePage.dart';
+import 'package:chicpalette/Pages/CataloguePage.dart';
 import 'Pages/Displaypage.dart';
 
 void main() {
