@@ -1,37 +1,37 @@
-List<Map<String, dynamic>> Foundation_detailpage = [
+List<Map<String, dynamic>> Eyeshadow_detail = [
   {
     'color': 0xFFFFFFFF,
-    'image': 'lib/images/fentyfoundation.png',
+    'image': 'lib/images/eyeshadow.png',
     'name': 'Fenty Foundation',
     'price': ' 525',
   },
   {
     'color': 0xFFFFFFFF,
-    'image': 'lib/images/fitmefoundation.png',
+    'image': 'lib/images/shadow.png',
     'name': 'FitMe Foundation',
     'price': ' 525',
   },
   {
     'color': 0xFFFFFFFF,
-    'image': 'lib/images/lagirlfoundation.png',
+    'image': 'lib/images/shadow2.png',
     'name': 'L.A. girl Foundation',
     'price': ' 525',
   },
   {
     'color': 0xFFFFFFFF,
-    'image': 'lib/images/lorealfoundation.png',
+    'image': 'lib/images/shadow3.png',
     'name': 'LOREAL Foundation',
     'price': ' 525',
   },
   {
     'color': 0xFFFFFFFF,
-    'image': 'lib/images/rarebeautyfoundation.png',
+    'image': 'lib/images/shadow4.png',
     'name': 'Rare Beauty Foundation',
     'price': ' 525',
   },
   {
     'color': 0xFFFFFFFF,
-    'image': 'lib/images/nyxfoundation.png',
+    'image': 'lib/images/shadow5.png',
     'name': 'NYX Foundation',
     'price': ' 525',
   },

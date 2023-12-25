@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg: ^2.0.9
+  carousel_slider: ^4.0.0
 
 
 
@@ -66,7 +67,51 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - lib/images/1.1.png
+    - lib/images/logo.png
     - lib/images/fentyfoundation.png
+    - lib/images/fitmefoundation.png
+    - lib/images/lagirlfoundation.png
+    - lib/images/lorealfoundation.png
+    - lib/images/rarebeautyfoundation.png
+    - lib/images/nyxfoundation.png
+    - lib/images/diorlipstick.png
+    - lib/images/loreallipstick.png
+    - lib/images/ysllipstick.png
+    - lib/images/ysllipstickII.png
+    - lib/images/lagirllipstick.png
+    - lib/images/lagirllipstickII.png
+    - lib/images/featured2nd.png
+    - lib/images/featured3rd.png
+    - lib/images/featured4th.png
+    - lib/images/featured5th.png
+    - lib/images/featured6th.png
+    - lib/images/featured.png
+    - lib/images/concealer.png
+    - lib/images/concealer2.png
+    - lib/images/concealer3.png
+    - lib/images/concealer4.png
+    - lib/images/concealer5.png
+    - lib/images/concealer6.png
+    - lib/images/eyeshadow.png
+    - lib/images/shadow.png
+    - lib/images/shadow2.png
+    - lib/images/shadow3.png
+    - lib/images/shadow4.png
+    - lib/images/shadow5.png
+    - lib/images/blush.png
+    - lib/images/blush2.png
+    - lib/images/blush3.png
+    - lib/images/blush4.png
+    - lib/images/blush5.png
+    - lib/images/blush6.png
+    - lib/images/mascara.png
+    - lib/images/mascara2.png
+    - lib/images/mascara3.png
+    - lib/images/mascara4.png
+    - lib/images/mascara5.png
+    - lib/images/mascara6.png
+
+
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
@@ -96,3 +141,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+  git add:
+
+  git commit -m "Add images to lib directory":
+
+  git push:
+  
+
